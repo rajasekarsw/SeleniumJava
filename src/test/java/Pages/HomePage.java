@@ -9,7 +9,7 @@ public class HomePage {
 
 
 
-    @FindBy(xpath="//i/parent::span[@class='oxd-userdropdown-tab']")
+    @FindBy(xpath="//i/parent::span[@class='oxd-userdropdown-ta']")
     private WebElement profileDropdownIcon;
 
     @FindBy(xpath="//i/parent::span[@class='oxd-userdropdown-tab']/following-sibling::ul/child::li/a[text()='Logout']")
